@@ -1,18 +1,28 @@
 <!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Spectral by HTML5 UP</title>
+		<title>NUAD | YOGA | BODYWORK</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<style>
+			.google-maps {
+				position: relative;
+				padding-bottom: 70%; // This is the aspect ratio
+			height: 0;
+				overflow: hidden;
+			}
+			.google-maps iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100% !important;
+				height: 70% !important;
+			}
+		</style>
 	</head>
 	<body class="landing">
 
@@ -21,18 +31,25 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">NUAD YOGA BODYWORK</a></h1>
+						<h1><a href="index.html">NUAD | YOGA | BODYWORK</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<a href="#menu" class="menuToggle"><span>Menü</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="index.html">Oben</a></li>
+											<li><a href="#nuad">NUAD</a></li>
+											<li><a href="#yoga">YOGA</a></li>
+											<li><a href="#taiChiQiGong">TaiChiQiGong</a></li>
+											<li><a href="#ausbildung">Ausbildung</a></li>
+											<li><a href="#ausbildungsleiterin">Ausbildungsleiterin</a></li>
+											<li><a href="#preise">Preise</a></li>
+											<li><a href="#reservierung">Reservierung</a></li>
+											<li><a href="#map_canvas">Adresse/Anfahrt</a></li>
+											<li><a href="#kontaktformular">Kontaktformular</a></li>
+											<li><a href="https://www.facebook.com/NuadLinz">NUAD Linz auf Facebook</a></li>
+
 										</ul>
 									</div>
 								</li>
@@ -43,121 +60,313 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>Spectral</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
-							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
-							</ul>
+							<h2>NUAD | YOGA | BODYWORK</h2>
+							<p>Dein Kurzurlaub in <br />
+								<b>Thailand!</b><br />
+								mit <b>Ada Atzmueller</b><br />
 						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
+						<a href="#intro" class="more scrolly">Mehr erfahren</a>
 					</section>
 
 				<!-- One -->
-					<section id="one" class="wrapper style1 special">
+					<section id="intro" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h4><b>Lass Dich begeistern</b><br /> für die Kunst einer wundervollen uralten Wellness- und Heilmethode!<br />
+									für loving kindness, die Arbeit, die aus dem Herzen kommt!</h4>
+								<p>NUAD Praktikerin und NUAD Ausbildungsleiterin, certified YOGA Teacher,<br />
+									YOGA- und TaiChiQiGong- Unterricht, Craniosacral Balancing, systemische Aufstellungen.
+								</p>
 							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
+							<ul class="features">
+							<li class="icon fa-heart-o"><p>NUAD YOGA Bodywork schenkt uns ein harmonisches Zusammenspiel von Körper, Geist und Seele.</p></li>
+							<li class="icon fa-heart-o"><p>NUAD YOGA Bodywork öffnet unser Herz und bringt uns in die Gegenwart.</p></li>
+							<li class="icon fa-heart-o"><p>NUAD YOGA Bodywork ist dynamisch und zugleich beruhigend.</p></li>
+							<li class="icon fa-heart-o"><p>NUAD YOGA Bodywork lässt uns die tiefe Lebendigkeit des Lebens erfahren.</p></li>
 							</ul>
+							<!--<ul class="icons major">-->
+								<!--<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>-->
+								<!--<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>-->
+								<!--<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>-->
+							<!--</ul>-->
 						</div>
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
+					<section id="nuad"  class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<!--<h2>Magna primis lobortis<br />-->
+								<!--sed ullamcorper</h2>-->
+								<p>
+									In unserem Körper fliesst Energie in bestimmten Bahnen, den sogenannten Meridianen, Sen oder Nadis. Diese bilden ein komplexes Netz, stehen mit den inneren Organen und untereinander in Verbindung. Auf diesen Energielinien befinden sich viele Akupressurpunkte. Bei einer NUAD YOGA Bodywork Sitzung werden diese Linien und Punkte mit sanftem Druck von mir bearbeitet, von Fuss bis Kopf. Von Fussreflexzonen bis CranioSacral Balancing. Der ganze Körper. Zwischendurch dehne, schaukle und stärke ich viele Deiner Muskeln, Faszien und Sehnen. Ich mache für Dich YOGA, Du musst Dich weder dazu überwinden noch dabei anstrengen. Nach einer Weile merkst Du, wie Du tief entspannt und doch ganz wach bist. Du bist ganz bei Dir angekommen!<br/>
+
+									NUAD YOGA Bodywork beruhigt Deinen Herzschlag, vertieft Deinen Atem, bringt Deine Lebensenergie in Balance und macht Dich ganz nebenbei gelenkiger! Dabei kann sich auch Deine Seele erholen. Eine Rundum-Erneuerung auf allen Ebenen!
+
+								</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<!--<h2>Tortor dolore feugiat<br />-->
+								<!--elementum magna</h2>-->
+
+							<ul>
+								<li>NUAD YOGA Bodywork ist eine seit Jahrtausenden bewährte, komplexe energetische Methode, die die grossen asiatischen Traditionen (YOGA &TCM) vereint.</li>
+								<li>Mit NUAD YOGA Bodywork können Blockaden und tiefe Verspannungen gelöst werden, damit Lebensenergie wieder frei durch Deinen Körper fliessen kann.</li>
+								<li>Gezielte, sanfte Berührungen mit Händen, Ellbogen, Knien und Füssen wechseln mit passiven Yoga-Übungen ab. Gemeinsam aktivieren sie die Energiebahnen Deines gesamten Körpers und bringen Dich wieder ins Lot.</li>
+							</ul>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<ul>
+								<li>NUAD Yoga Bodywork stärkt Dein Immunsystem, verbessert den Blut- und Lymph - Kreislauf und steigert Deine Beweglichkeit völlig mühelos!</li>
+								<li>NUAD YOGA Bodywork unterstützt Dich beim Loslassen von Ängsten und negativen Gedanken. Deine Seele atmet auf.</li>
+								<li>NUAD YOGA Bodywork ist eine natürliche Methode und unterstützt jeden Lebensprozess!</li>
+								<li>NUAD YOGA wird in bequemer Bekleidung auf einer Matte am Boden praktiziert.</li>
+							</ul>
 							</div>
 						</section>
 					</section>
 
+				<section id="yoga" class="wrapper style3 special">
+					<div class="inner">
+						<header>
+							<h2>Ganzheitliches <b>YOGA</b></h2>
+							<p>Geniesse die Schönheit des Augenblicks.<br/>
+							mit Ada, certified Yogateacher</p>
+						</header>
+						<ul class="features">
+							<li class="icon fa-heart-o"><p>YOGA ist ein Zustand, in dem der Geist zur Ruhe kommt. (Patanjali)</p></li>
+							<li class="icon fa-heart-o"><p>YOGA ist ein Geschenk an Dich selbst, das Du Dir jederzeit geben kannst!</p></li>
+						</ul>
+					</div>
+				</section>
+
+				<section  class="wrapper alt style2">
+					<section class="spotlight">
+						<div class="image"><img src="images/pic04.jpg" alt="" /></div><div class="content">
+						<!--<h2>Magna primis lobortis<br />-->
+						<!--sed ullamcorper</h2>-->
+						<p>
+							Forscher der Harvard Medical School fanden heraus, dass sich durch Yoga unser Gehirn verändert : Wir lernen, mit Stress, negativen Gefühlen und Ängsten besser umzugehen. Denn YOGA ist viel mehr als die allseits bekannten Körperhaltungen. Dein Atem fliesst und vertieft sich. Du lernst in den  YOGA Stunden verschiedene Atemtechniken, die Deinen Stresspegel wie durch ein Wunder schmelzen lassen. Lange gehaltene Asanas (Yoga-Posen) führen Dich zu tiefer Entspannung und können sogar Muskelschmerzen verringern. Rhytmische Abfolgen wie der Sonnengruss aktivieren Deine Lebensenergie und Deinen Kreislauf.
+
+
+						</p>
+					</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/pic05.jpg" alt="" /></div><div class="content">
+
+
+						<p>
+							Gemeinsames Üben und das Vertrauen darauf, dass Du durch sanfte Korrekturen Deiner Yogalehrerin dabei auch Deinen Körper schonst, erleichtern es, den inneren “Schweinehund” zu überlisten! Du kommst in Bewegung, Du kommst in die Stille. Dein Geist beruhigt sich, Du bist im Jetzt angekommen!
+
+						</p>
+					</div>
+
+				</section>
+				<section id="taiChiQiGong" class="wrapper style1 special">
+					<div class="inner">
+						<header class="major">
+							<h2>TaiChiQiGong </h2>
+							<p>mit Ada</p>
+						</header>
+						<ul class="features">
+							<li class="icon fa-heart-o">
+								<p>ist Meditation in Bewegung. Eine Mischung verschiedener Übungen aus TaiChi und QiGong, die sich mit der Lebensenergie beschäftigen und die seit vielen Generationen in den buddhistischen Tempeln Thailands täglich praktiziert werden.<br/>
+									Im Rahmen der TCM Heilkunde stellen TaiChi und QiGong den präventiven und aktiven Teil dar, den Weg des Übens, des eigenen Bemühens um Gesunderhaltung.
+								</p>
+							</li>
+							<li class="icon fa-heart-o">
+								<p>TaiChiQiGong - Übungen umfassen Körperhaltungen und Bewegungen mit fliessendem Atem und fördern Deine Konzentration und Beweglichkeit. Mit TaiChiQiGong können körperliche und seelische Funktionen aufgebaut und gestärkt werden. Darüber hinaus macht das gemeinsame Üben mit Ada (so oft wie möglich im Grünen) einfach Spass!</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+
+
+					<!-- Main -->
+					<article id="ausbildung">
+						<section class="wrapper style5">
+							<div class="inner">
+								<header>
+									<h2>NUAD YOGA Bodywork  }  Die AUSBILDUNG</h2>
+									<p>(in LINZ/Austria)</p>
+								</header>
+								<p>
+									Du erlernst in dieser selbsterfahrungs-reichen Ausbildung die unterschiedlichen Sequenzen einer NUAD YOGA Ganzkörper-Anwendung mit den entsprechenden Techniken und dem theoretischen Wissen dazu. Darüber hinaus wirst Du gewissenhaft auf das achtsame Praktizieren mit KlientInnen vorbereitet. Die Ausbildung zur/m NUAD Praktiker/in ist ein wahres Erlebnis, da Du die meiste Zeit NUADs bekommst oder gibst! Am Beginn eines jeden Seminartages werden wir gemeinsam YOGA    üben und uns mit einer kurzen Meditation auf das praktische Erlernen von NUAD Sequenzen einstimmen. Du erfährst in dieser Ausbildung u.a. die vielfache Wohltat einer uralten heilsamen Berührung am eigenen Körper!
+								</p>
+
+								<div class="inner">
+									<h2 class="inner">
+										<header>
+											<h5>
+												INFO-ABEND für den neuen NUAD-Lehrgang 2017 in LINZ ist am Mi, 26.10.2016, 18h. Bitte um Anmeldung zum Info-Abend bis Mi,19.10. telefonisch, per email oder Kontaktformular!
+											</h5>
+										</header>
+									</h2>
+								</div>
+								<ul>
+									<li>Ausbildungszeitraum März bis Oktober</li>
+									<li>5 Wochenend-Seminare, berufsbegleitend</li>
+									<li>jeweils Freitag,15h bis Sonntag,13h. Samstag ganztags.</li>
+									<li>Kleine Gruppen ermöglichen gute Selbsterfahrung</li>
+									<li>Viele Übungseinheiten mit Trainer-Supervision und Peergroup-Treffen</li>
+									<li>Erlerne diese entspannende und gesundheitsfördernde Methode aus Thailand</li>
+									<li>und tu Dir damit auch selbst viel Gutes!</li>
+
+								</ul>
+								<div id="ausbildungsleiterin">
+
+								<hr />
+								<br/>
+									<h4>Ausbildungsleiterin:  Ada Atzmueller</h4>
+
+									<ul>
+										<span class="image right" style="max-width:200px;"><img src="images/ada.jpg" alt="" /></span>
+										<li>ausgebildet in NUAD YOGA Bodywork in Thailand</li>
+										<li>Diplom des OLD MEDICINE HOSPITAL, Chiang Mai</li>
+										<li>kontinuierliche Erfahrung als NUAD Praktikerin seit 2004</li>
+										<li>NUAD Ausbildungsleiterin seit 2013</li>
+										<li>Member of T.H.A.I. (Thai Healing Alliance International)</li>
+										<li>alljährliche Weiterbildung in Thailand</li>
+										<li>Craniosakrale Biodynamik (bei Rosemary Wallace)</li>
+										<li>systemische Aufstellungen (bei Josefa Walch)</li>
+										<li>HumanEnergetikerin und zertifizierte Yogalehrerin (TheYogaInstitute, Mumbai, India)</li>
+
+									</ul>
+								</div>
+
+								<div id="preise">
+									<hr/>
+									<h4>Preise</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+											<tr>
+												<th></th>
+												<th></th>
+											</tr>
+											</thead>
+											<tbody>
+											<tr>
+												<td>1 Mal NUAD YOGA Bodywork 60 Minuten Einzelsitzung</td>
+												<td>50 Euro</td>
+											</tr>
+											<tr>
+												<td>1 Mal NUAD YOGA Bodywork 90 Minuten Einzelsitzung</td>
+												<td>70 Euro</td>
+											</tr>
+											<tr>
+												<td>10 Mal NUAD YOGA Bodywork a 90 Minuten</td>
+												<td>660 Euro</td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+
+								<p>
+									<i><small>
+									NUAD Ausbildung und Yoga Klassen, Seminare und Workshops,
+									systemische Aufstellungen und TaiChiQiGong Klassen auf Anfrage
+										<br /><br />
+									Bitte bequeme Turn/Yogakleidung aus Naturfaser, Socken und 1 Liegetuch mitbringen.
+									und 1 Stunde davor NICHT essen!
+									</small></i>
+								</p>
+								<section id="reservierung" class="wrapper style4">
+									<div class="inner">
+										<h2 class="inner">
+											<header>
+												<h4>YOGA Klassen und Workshops, YOGA Reisen, YOGA im Park,<br/>
+													TaiChiQiGong Klassen mit Ada auf Anfrage!
+												</h4>
+												<div align="center">
+													<h2>06776 195 95 15 | nuad@gmx.de  </h2>
+												</div>
+											</header>
+										</h2>
+									</div>
+								</section>
+
+								<div id="map_canvas">
+									<hr/>
+									<h4>Adresse</h4>
+									<p>NUAD Praxis
+										4040 Linz, Sparkassenplatz 1</p>
+									<div class="google-maps">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.3004174772063!2d14.281054796466213!3d48.316681900135805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477399d365136411%3A0x75c2876cca0000a6!2sSparkassenplatz+1%2C+4040+Linz!5e0!3m2!1sen!2sat!4v1473239336543" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+
+							</div>
+
+
+						</section>
+
+					</article>
+
 				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
+					<section class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>NUAD YOGA Bodywork, ein Erlebnisbericht:</h2>
 							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
+							<p>
+								“Ich lerne schnell, dass NUAD mit Loslassen zu tun hat. Ich erlebe  Ada an meiner Seite, spüre ihren Einsatz,
+								ihr Schaukeln, ihr Dasein. Sie setzt viel daran, den Starrsinn meines Körpers sanft zu Fall zu bringen.
+								Zwanglos, mit Händen, Handballen, Ellbogen, Knien, Füssen, Fingerspitzen. Meine Sperrigkeit beginnt
+								langsam zu weichen. Raffinierte, wohldosierte Dehnungen geben mir nach und nach das
+								berühmte „Palatschinken-Gefühl“, das ich nur aus fernen Erinnerungen kenne, wenn ich
+								einfach nur glücklich sein darf. Einfach nur da sein, satt und zufrieden. Tagträumend. So
+								wie jetzt auf dieser Matte, umringt von Händen und Füssen, die immer exakt da drücken, schieben,
+								ziehen, wo jede Zelle meines Körpers sich danach sehnt...”
+							</p>
+
+							<header>
+								<h4>LOKA SAMASTA SUKHINO BHAVANTU  ~ ~ ~ Mögen alle Wesen im Universum glücklich sein!</h4>
+							</header>
 						</div>
 					</section>
 
 				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
+					<section id="kontaktformular" class="wrapper style2 special">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<h2>Kontaktformular</h2>
 							</header>
-							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
+							<section>
+								<form method="post" action="https://formspree.io/nuad@gmx.de">
+									<div class="row uniform">
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="name" id="demo-name" value="" placeholder="Name" />
+										</div>
+										<div class="6u$ 12u$(xsmall)">
+											<input type="email" name="email" id="demo-email" value="" placeholder="Email" />
+										</div>
+										<div class="12u$">
+											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<div class="12u$">
+											<ul class="actions">
+												<li><input type="submit" value="Abschicken" class="special" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
 						</div>
 					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li><a href="https://www.facebook.com/NuadLinz" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="mailto:nuad@gmx.de" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
 					</footer>
 

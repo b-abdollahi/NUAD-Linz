@@ -3448,7 +3448,7 @@
 		}
 
 			#banner p a {
-				color: inherit;
+				color: #D12692;
 			}
 
 		#banner .more {
@@ -3466,7 +3466,7 @@
 			transform: translateY(0);
 			border: none;
 			bottom: 0;
-			color: inherit;
+			color: #D12692;
 			font-size: 0.8em;
 			height: 8.5em;
 			left: 50%;
@@ -3495,6 +3495,7 @@
 				margin: 0 0 0 -0.75em;
 				position: absolute;
 				width: 1.5em;
+				color: #D12692;
 			}
 
 		#banner:after {

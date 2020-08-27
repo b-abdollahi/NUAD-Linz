@@ -3410,13 +3410,12 @@
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.5em;
+			font-size: 2em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
 			color: #ffffff;
-			background-color: rgba(255, 255, 255, 0.2)
 		}
 
 
@@ -3435,7 +3434,6 @@
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 			color: #D12692;
-			background-color: rgba(255, 255, 255, 0.2)
 		}
 
 			#banner p a {
